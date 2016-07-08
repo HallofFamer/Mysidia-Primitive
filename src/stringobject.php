@@ -1,6 +1,6 @@
 <?php
 
-namespace Mysidia\Primitive\Native;
+namespace Mysidia\Primitive;
 use DateTime;
 
 class StringObject extends Object{

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mysidia\Primitive\Native;
+namespace Mysidia\Primitive;
 use ArrayIterator;
 
 class ArrayObject extends Object{

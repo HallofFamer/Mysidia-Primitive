@@ -1,6 +1,6 @@
 <?php
 
-namespace Mysidia\Primitive\Native;
+namespace Mysidia\Primitive;
 
 class IntObject extends NumberObject{
 
