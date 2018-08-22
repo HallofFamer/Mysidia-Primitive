@@ -1,0 +1,33 @@
+{
+    "name": "mysidia/primitive",
+    "description": "A userland implementation for Nikic's PHP scalar objects extension.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hall of Famer(Ordland)",
+            "email": "theordland@gmail.com",
+            "homepage": "https://github.com/HallofFamer"
+        }
+    ],
+    "require": {
+        "php": "7.*",
+        "ext-scalar_objects": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/arrayobject.php",
+            "src/boolobject.php",
+            "src/floatobject.php",
+            "src/illegalargumentexception.php",
+            "src/intobject.php",
+            "src/nullobject.php",
+            "src/numberobject.php",
+            "src/object.php",
+            "src/stringobject.php",
+            "src/unsupportedoperationexception.php"
+        ],
+        "psr-4": {
+            "Mysidia\\Primitive\\": "src"
+        }
+    },
+}
