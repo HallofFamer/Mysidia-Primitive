@@ -12,17 +12,17 @@ class NullObject extends Object{
         return 0;
     }
 
-	public static function isEmpty($self){
+    public static function isEmpty($self){
 	    return TRUE;
-	}     
+    }     
 
     public static function isFalse($self){
         return TRUE;
     }
 
-	public static function isNull($self){
+    public static function isNull($self){
 	    return TRUE;
-	}
+    }
 
     public static function isTrue($self){
         return FALSE;
